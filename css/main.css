@@ -1,0 +1,141 @@
+:root {
+    --BBlue: #0a1132; /*zmienna koloru*/
+}
+body {
+    background-image: url("../img/space2.jpg");
+    background-attachment: fixed;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    margin-top: 2000px;
+    color: white;
+    padding: 20px;
+    background-color: var(--BBlue);
+    width: 100vw;
+    height: 300px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+footer p {
+    font-size: 15px;
+}
+footer h3 {
+    font-size: 25px;
+}
+footer p {
+    text-decoration-style: solid;
+    padding-left: 10px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+li a{
+    text-decoration: none;
+}
+li {
+    text-align: center;
+}
+.menu li {
+    padding: 10px;
+    margin: 0px 5px 0px 0px;
+    display: inline-block;
+    width: 100px;
+    transition: 0.5s;
+}
+.menu ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 15%;
+}
+.szkola ul {
+    left: 258px;
+}
+.planetarium ul {
+    left: 387px;
+}
+.menu ul li {
+    display: list-item;
+}
+.szkola ul li {
+    display: list-item;
+}
+nav a {
+    color: white;
+    line-height: 50px;
+}
+.menu li:hover > ul {
+    display: block;
+}
+.menu li:hover {
+ 
+    box-shadow: 0px 0px 10px 1px white;
+}
+nav {
+    position: fixed;
+    top: 0;
+    left: 40%;
+}
+
+
+
+
+
+
+/*
+
+
+.menu ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 35%;
+}
+.szkola ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 35%;
+}
+.planetarium ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 35%;
+}
+.planetarium ul li {
+    display: list-item;
+}
+.szkola ul  {
+    display: list-item;
+}
+nav a {
+    color: white;
+    line-height: 50px;
+}
+.menu li:hover > ul {
+    display: block;
+}
+.menu li:hover {
+ 
+    box-shadow: 0px 0px 10px 1px white;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 30%;
+}
+*/
