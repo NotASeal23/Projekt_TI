@@ -10,9 +10,9 @@ body {
 
 
 
-
+/*robi że na podstronie w ktorej jestes dany kafelek bedzie podswietlony*/
 #this {
-
+    border-bottom:3px #fff solid;
 }
 
 /*Stopka*/
