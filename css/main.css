@@ -81,13 +81,16 @@ nav a{
     text-align: center;
 }
 .menu li:hover a {
-    text-decoration: underline;
+    /*text-decoration: underline; */
+}
+.menu li:hover {
+    border-bottom:3px #fff solid;
 }
 .menu li:hover ul a {
     text-decoration: none;
 }
 .menu li ul li:hover a{
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 .menu ul{
     display: none;
@@ -96,17 +99,17 @@ nav a{
     left: -40px;
 }
 .menu ul li{
-    width: 90px;
+    width: 140px;
     display: list-item;
 }
 .menu li:hover > ul{
     display: block;
 }
 .planetarium ul {
-    left:32%;
+    left:31.7%;
 }
 .szkola ul {
-    left:20%;
+    left:19.7%;
 }
 
 
