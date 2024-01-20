@@ -11,7 +11,9 @@ body {
 
 
 
+#this {
 
+}
 
 /*Stopka*/
 footer {
@@ -28,8 +30,11 @@ footer div {
     margin: 20px;
     padding: 20px;
     width: 33%;
-    border-color: #fff;
-    border-width: 1px;
+    border-left: 1px #fff solid;
+    
+}
+footer div:first-child {
+    border-left: 0px;
 }
 footer p {
     font-size: 15px;
