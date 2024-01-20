@@ -13,7 +13,7 @@ body {
 
 
 
-
+/*Stopka*/
 footer {
     margin-top: 2000px;
     color: white;
@@ -34,8 +34,68 @@ footer p {
     text-decoration-style: solid;
     padding-left: 10px;
 }
+/*menu*/
+ul{
+    list-style: none;
+}
+nav{
+    position: fixed;
+    margin: auto;
+    top: 0;
+    left: 40%;
+    width: 80%;
+}
+.menu{
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+.menu li{
+    margin: 0px 0px 0 0;
+    display: inline-block;
+}
+nav a{
+    line-height: 60px;
+    display: block;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    width: 120px;
+    text-align: center;
+}
+.menu li:hover a {
+    text-decoration: underline;
+}
+.menu li:hover ul a {
+    text-decoration: none;
+}
+.menu li ul li:hover a{
+    text-decoration: underline;
+}
+.menu ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -40px;
+}
+.menu ul li{
+    width: 90px;
+    display: list-item;
+}
+.menu li:hover > ul{
+    display: block;
+}
+.planetarium ul {
+    left:32%;
+}
+.szkola ul {
+    left:20%;
+}
 
-ul {
+
+
+/*ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -76,7 +136,7 @@ nav a {
     color: white;
     line-height: 50px;
 }
-.menu li:hover > ul {
+.menu li:hover + ul {
     display: block;
 }
 .menu li:hover {
@@ -88,6 +148,8 @@ nav {
     top: 0;
     left: 23%;
 }
+*/
+/*czesc dotyczaca przycisku*/
 #dogora {
     rotate: -45deg;
     width: 75px;
@@ -101,18 +163,25 @@ nav {
 
 #dogora a {
     position: fixed;
-    left: 5px;
-    top: 0px;
+    left: 10px;
+    top: 5px;
     color: white;
     text-decoration: none;
     font-size: 45px ;
+    padding-left: 0px;
 }
 #dogora:hover  a {
-    transition: 10s;
-    top: -1000px;
-    left: 1000px;
+    transition: 1s;
+    top: -50px;
+    left: 10px;
+    rotate: -45deg;
+    font-size: 70px;
 }
-
+#gora {
+    position: absolute;
+    top: 0;
+    left:0;
+}
 
 
 /*
