@@ -185,7 +185,7 @@ nav {
     cursor: pointer;
 }
 
-#dogora a {
+#dogora #pa2 {
     position: fixed;
     left: 7px;
     text-align: center;
@@ -195,16 +195,28 @@ nav {
     font-size: 45px ;
     padding-left: 0px;
 }
-#dogora:hover  a {
+#dogora:hover  #pa2 {
     transition: 1s;
     top: -50px;
     left: 10px;
     rotate: -45deg;
     font-size: 70px;
 }
+#dogora:hover  #pa {
+    opacity: 1;
+    transition: 1s;
+}
 #gora {
     position: absolute;
     top: 0;
     left:0;
 }
-
+#pa {
+    opacity: 0;
+    color: #fff;
+    position: fixed;
+    top: 32px;
+    left: 2.5px;
+    font-size: 22px;
+    rotate: 45deg;
+}
