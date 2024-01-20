@@ -22,17 +22,33 @@ footer {
     width: 100vw;
     height: 300px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    display: flex;
+}
+footer div {
+    margin: 20px;
+    padding: 20px;
+    width: 33%;
+    border-color: #fff;
+    border-width: 1px;
 }
 footer p {
     font-size: 15px;
 }
 footer h3 {
     font-size: 25px;
+    padding-left: 27%;
 }
 footer p {
     text-decoration-style: solid;
-    padding-left: 10px;
+    padding-left: 33%;
+}
+
+footer div:last-child {
+    padding-top: 100px;
+    text-align: center;
+    margin-right: 200px;
+    margin-left: 0px;
+    padding-left: 0px;
 }
 /*menu*/
 ul{
@@ -92,7 +108,6 @@ nav a{
 .szkola ul {
     left:20%;
 }
-
 
 
 /*ul {
@@ -163,7 +178,8 @@ nav {
 
 #dogora a {
     position: fixed;
-    left: 10px;
+    left: 7px;
+    text-align: center;
     top: 5px;
     color: white;
     text-decoration: none;
@@ -183,49 +199,3 @@ nav {
     left:0;
 }
 
-
-/*
-
-
-.menu ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 35%;
-}
-.szkola ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 35%;
-}
-.planetarium ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 35%;
-}
-.planetarium ul li {
-    display: list-item;
-}
-.szkola ul  {
-    display: list-item;
-}
-nav a {
-    color: white;
-    line-height: 50px;
-}
-.menu li:hover > ul {
-    display: block;
-}
-.menu li:hover {
- 
-    box-shadow: 0px 0px 10px 1px white;
-}
-
-nav {
-    position: fixed;
-    top: 0;
-    left: 30%;
-}
-*/
