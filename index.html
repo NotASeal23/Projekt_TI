@@ -38,11 +38,11 @@
 
 
     <div id="gora"></div>
-    <div id="dogora"><a href="#gora">&#128640;</a></div>
+    <div id="dogora" onclick="scrollToTop()"><a href="#gora">&#128640;</a></div>
 
 
-    <script>
-    </script>
+
+
     <footer>
         <div>
         <h3>CONTACT</h3>
@@ -63,6 +63,13 @@
         </div>
 
     </footer>
+
+    <script>
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 </html>
 <!--Mikolaj-->
