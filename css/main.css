@@ -107,10 +107,13 @@ nav a {
 .menu li:hover > ul {
     display: block;
 }
+li.szkola > ul li a{
+  width: 160px;
+}
 
 /* --------------- Stopka ------------------------*/
 footer {
-    margin-top: 2000px;
+    margin-top: 1500px;
     color: white;
     padding: 20px 0;
     background-color: var(--BBlue);
