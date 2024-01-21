@@ -17,20 +17,21 @@ body {
     border-bottom: 3px #fff solid;
 }
 
-/* ----- header ---------------- */
 header {
-  height: 100vh;
-  text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 header img {
-  margin: 20vh auto 0 auto;
-  display: block;
-  width: auto;
-  height: auto;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
-
 /* ---------------- menu ---------------- */
-.sticky {
+
+.sticky {  /* do sticky menu na stronie głównej */
   position: fixed;
   top: 0;
 }
@@ -44,7 +45,6 @@ nav {
     position: fixed;
     margin: auto;
     top: 0;
-    /* left: 40%; */
     width: 100%;
 }
 ul.menu {
@@ -55,10 +55,30 @@ ul.menu {
     font-family: Cochin, Aleo, Aptos, sans-serif;
 }
 .menu li {
-    margin: 0px 0px 0 0;
+    margin: 0;
     display: inline-block;
     border-bottom: 3px rgba(0,0,0,0) solid;
 }
+
+#home img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px; /* Dodatkowy odstęp od tekstu (możesz dostosować według potrzeb) */
+    vertical-align: middle; /* Wertykalne centrowanie obrazu */
+}
+
+#home {
+    display: inline-block;
+    vertical-align: middle; /* Wertykalne centrowanie elementu #home */
+}
+#home a {
+    line-height: 54px;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
 nav a {
     line-height: 54px;
     display: block;
