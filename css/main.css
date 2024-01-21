@@ -41,7 +41,6 @@ ul {
     padding: 0;
 }
 nav {
-   /* background-color: rgba(51, 43, 146, 0.7); */
     position: fixed;
     margin: auto;
     top: 0;
@@ -63,13 +62,13 @@ ul.menu {
 #home img {
     height: 50px;
     width: auto;
-    margin-right: 10px; /* Dodatkowy odstęp od tekstu (możesz dostosować według potrzeb) */
-    vertical-align: middle; /* Wertykalne centrowanie obrazu */
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 #home {
     display: inline-block;
-    vertical-align: middle; /* Wertykalne centrowanie elementu #home */
+    vertical-align: middle;
 }
 #home a {
     line-height: 54px;
@@ -111,9 +110,19 @@ li.szkola > ul li a{
   width: 160px;
 }
 
-/* --------------- Stopka ------------------------*/
+/* --------------- SEKCJA GŁÓWNA - CONTENT --------------*/
+
+main {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: rgba(0,0,0,0.3);
+  padding-top: 1000px; /* na potrzeby pracy */
+}
+
+/* --------------- STOPKA ------------------------*/
 footer {
-    margin-top: 1500px;
+    /* margin-top: 1500px; */
     color: white;
     padding: 20px 0;
     background-color: var(--BBlue);
@@ -151,65 +160,7 @@ footer div:last-child {
     padding-left: 0px;
 }
 
-
-
-/*ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    flex-wrap: wrap;
-}
-li a{
-    text-decoration: none;
-}
-li {
-    text-align: center;
-}
-.menu li {
-    padding: 10px;
-    margin: 0px 5px 0px 0px;
-    display: inline-block;
-    width: 100px;
-    transition: 0.5s;
-}
-.menu ul {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 15%;
-}
-.szkola ul {
-    left: 258px;
-}
-.planetarium ul {
-    left: 387px;
-}
-.menu ul li {
-    display: list-item;
-}
-.szkola ul li {
-    display: list-item;
-}
-nav a {
-    color: white;
-    line-height: 50px;
-}
-.menu li:hover + ul {
-    display: block;
-}
-.menu li:hover {
-
-    box-shadow: 0px 0px 10px 1px white;
-}
-nav {
-
-    top: 0;
-    left: 23%;
-}
-*/
-
-
-/*czesc dotyczaca przycisku*/
+/* ------- PRZYCISK POWROT NA GORE STRONY --------------*/
 #dogora {
     rotate: -45deg;
     width: 75px;
