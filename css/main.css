@@ -13,7 +13,7 @@ body {
 
 /*robi że na podstronie w ktorej jestes dany kafelek bedzie podswietlony*/
 #this {
-    border-bottom:3px #fff solid;
+    border-bottom: 3px #fff solid;
 }
 
 /*Stopka*/
@@ -59,24 +59,25 @@ footer div:last-child {
 ul{
     list-style: none;
 }
-nav{
+nav {
     position: fixed;
     margin: auto;
     top: 0;
     left: 40%;
     width: 80%;
 }
-.menu{
+.menu {
     padding: 0;
     margin: 0;
     position: relative;
 }
-.menu li{
+.menu li {
     margin: 0px 0px 0 0;
     display: inline-block;
+    border-bottom: 3px rgba(0,0,0,0) solid;
 }
-nav a{
-    line-height: 60px;
+nav a {
+    line-height: 54px;
     display: block;
     padding: 0 10px;
     color: #fff;
@@ -87,9 +88,10 @@ nav a{
 }
 .menu li:hover a {
     /*text-decoration: underline; */
+
 }
 .menu li:hover {
-    border-bottom:3px #fff solid;
+    border-bottom: 3px #fff solid;
 }
 .menu li:hover ul a {
     text-decoration: none;
@@ -97,21 +99,18 @@ nav a{
 .menu li ul li:hover a{
     /*text-decoration: underline;*/
 }
-.menu ul{
+.menu ul {
     display: none;
     position: absolute;
     top: 100%;
     left: -40px;
 }
-.menu ul li{
+.menu ul li {
     width: 140px;
     display: list-item;
 }
-.menu li:hover > ul{
+.menu li:hover > ul {
     display: block;
-}
-.menu ul li:hover {
-
 }
 .planetarium ul {
     left:31.7%;
