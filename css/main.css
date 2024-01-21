@@ -17,22 +17,28 @@ body {
     border-bottom: 3px #fff solid;
 }
 
+
+
 /* ---------------- menu ---------------- */
-ul{
+
+ul {
     list-style: none;
+    background-color: rgba(51, 43, 146, 0.7);
+    padding: 0;
 }
 nav {
-    /* background-color: rgba(51, 43, 146, 0.7); */
+   /* background-color: rgba(51, 43, 146, 0.7); */
     position: fixed;
     margin: auto;
     top: 0;
-    left: 40%;
-    width: 80%;
+    /* left: 40%; */
+    width: 100%;
 }
-.menu {
+ul.menu {
     padding: 0;
     margin: 0;
     position: relative;
+    text-align: center;
     /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
     font-family: Cochin, Aleo, Aptos, sans-serif;
 }
@@ -51,38 +57,27 @@ nav a {
     width: 120px;
     text-align: center;
 }
-.menu li:hover a {
-    /*text-decoration: underline; */
-}
 .menu li:hover {
     border-bottom: 3px #fff solid;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 .menu li:hover ul a {
     text-decoration: none;
-}
-.menu li ul li:hover a{
-    /*text-decoration: underline;*/
 }
 .menu ul {
     display: none;
     position: absolute;
     top: 100%;
-    left: -40px;
 }
 .menu ul li {
-    width: 140px;
+    /* width: 140px; */
     display: list-item;
 }
 .menu li:hover > ul {
     display: block;
 }
-.planetarium ul {
-    left:31.7%;
-}
-.szkola ul {
-    left:19.7%;
-}
+
+
 
 /* --------------- Stopka ------------------------*/
 footer {
@@ -180,6 +175,8 @@ nav {
     left: 23%;
 }
 */
+
+
 /*czesc dotyczaca przycisku*/
 #dogora {
     rotate: -45deg;
