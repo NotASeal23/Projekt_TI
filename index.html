@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="./css/main.css" />
     <link rel="icon" type="image/x-icon" href="img/logo.ico">
+    <script src="script.js"></script>
     <!-- DO STICKY MENU (TYLKO NA STRONIE GŁÓWNEJ) -->
     <style>
       nav {
@@ -25,17 +26,17 @@
 
               <li class="planetarium"><a href="subpages/Planetarium.html">Planetarium &#128899;</a>
                   <ul>
-                      <li><a href="#">Repertuar</a></li>
-                      <li><a href="#">Cennik</a></li>
-                      <li><a href="#">O nas</a></li>
+                      <li><a href="subpages/Repertuar.html">Repertuar</a></li>
+                      <li><a href="subpages/Cennik.html">Cennik</a></li>
+                      <li><a href="subpages/O_nas.html">O nas</a></li>
                   </ul>
               </li>
 
               <li class="szkola"><a href="subpages/Dla_szkol.html">Dla szkół &#128899;</a>
                   <ul>
-                      <li><a href="#">Warsztaty</a></li>
-                      <li><a href="#">Mobilne planetarium</a></li>
-                      <li><a href="#">Konkurs</a></li>
+                      <li><a href="subpages/Warsztaty.html">Warsztaty</a></li>
+                      <li><a href="subpages/Mobilne_planetarium.html">Mobilne planetarium</a></li>
+                      <li><a href="subpages/Konkurs.html">Konkurs</a></li>
                   </ul>
               </li>
 
@@ -49,10 +50,6 @@
     <main>
 
     </main>
-
-
-
-
 
     <div id="gora"></div>
     <div id="dogora" onclick="scrollToTop()"><a id="pa">Go up</a><a id="pa2" href="#gora">&#128640;</a></div>
@@ -79,12 +76,6 @@
 
     </footer>
 
-    <script>
-        function scrollToTop() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
 
     <!-- przyklejane menu -->
     <script>
@@ -101,5 +92,7 @@
         }
       }
     </script>
+
+
 </body>
 </html>

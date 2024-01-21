@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Strona test</title>
+<head>
+    <title>Planetarium Nova</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
-    </head>
+    <link rel="icon" type="image/x-icon" href="../img/logo.ico">
+    <script src="../script.js"></script>
+</head>
+
 <body>
-    <div id="nav">
-        <nav>
-        <ul class="menu">
-            <li><a href="../index.html">O nas</a>
-            <li><a href="Strefa_wiedzy.html">Strefa wiedzy</a>
-            <li class="szkola" id="this"><a href="Dla_szkol.html">Dla szkół &#128899;</a>
-                <ul>
-                    <li><a href="#">Kalcyt</a></li>
-                    <li><a href="#">Wapien</a></li>
-                    <li><a href="#">Kwarcyt</a></li>
-                </ul>
 
-            </li>
-            <li class="planetarium"><a href="Planetarium.html">Planetarium &#128899;</a>
-                <ul>
-                    <li><a href="#">MOnolit</a></li>
-                    <li><a href="#">Ostroklaz</a></li>
-                    <li><a href="#">CaO3</a></li>
-                </ul>
+        <nav id="navbar">
+          <ul class="menu">
+              <li id="home"><a href="../index.html"><img src="../img/nova.svg" alt="Home"></a></li>
 
-            </li>
-            <li><a href="Kontakt.html">Kontakt</a></li>
-            <li><a href="O_firmie.html">O firmie</a></li>
+              <li class="planetarium"><a href="Planetarium.html">Planetarium &#128899;</a>
+                  <ul>
+                      <li><a href="Repertuar.html">Repertuar</a></li>
+                      <li><a href="Cennik.html">Cennik</a></li>
+                      <li><a href="O_nas.html">O nas</a></li>
+                  </ul>
+              </li>
 
-        </ul>
+              <li class="szkola" id="this"><a href="Dla_szkol.html">Dla szkół &#128899;</a>
+                  <ul>
+                      <li><a href="Warsztaty.html">Warsztaty</a></li>
+                      <li><a href="Mobilne_planetarium.html">Mobilne planetarium</a></li>
+                      <li><a href="Konkurs.html">Konkurs</a></li>
+                  </ul>
+              </li>
+
+              <li><a href="Strefa_wiedzy.html">Strefa wiedzy</a>
+              <li><a href="Kontakt.html">Kontakt</a></li>
+
+          </ul>
         </nav>
 
+    <!-- SEKCJA GŁÓWNA -->
+    <main>
 
-    </div>
-
+    </main>
 
     <div id="gora"></div>
     <div id="dogora" onclick="scrollToTop()"><a id="pa">Go up</a><a id="pa2" href="#gora">&#128640;</a></div>
 
 
-    <script>
-    </script>
     <footer>
         <div>
         <h3>CONTACT</h3>
@@ -51,9 +53,9 @@
         </div>
 
         <div>
-            <h3>Dołącz do nas!</h3>
+                <h3>Dołącz do nas!</h3>
 
-            <!--loga fb twitter itakie tam-->
+                <!--loga fb twitter itakie tam-->
         </div>
 
         <div>
@@ -61,14 +63,7 @@
                 <p>Firma name</p>
                 <p> 2023 All rights reserved</p>
         </div>
-
     </footer>
-    <script>
-        function scrollToTop() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
+
 </body>
 </html>
-<!--Mikolaj-->
