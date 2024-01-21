@@ -7,10 +7,13 @@
 </head>
 
 <body>
-        <nav>
-          <div id="logo"></div>
+
+        <header>
+          <img src="img/planetarium.svg" id="planetarium">
+        </header>
+        <nav id="navbar">
           <ul class="menu">
-              <li id="this"><a href="index.html">O nas</a>
+              <li id="this"><a href="index.html">O nas</a></li>
               <li><a href="subpages/Strefa_wiedzy.html">Strefa wiedzy</a>
               <li class="szkola"><a href="subpages/Dla_szkol.html">Dla szkół &#128899;</a>
                   <ul>
@@ -64,6 +67,21 @@
             document.documentElement.scrollTop = 0;
         }
     </script>
+
+    <!-- przyklejane menu -->
+    <script>
+      window.onscroll = function() {myFunction()};
+
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+    </script>
 </body>
 </html>
-<!--Mikolaj-->
