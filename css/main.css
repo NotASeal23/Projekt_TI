@@ -3,7 +3,8 @@
 }
 body {
     background-image: url("../img/space2.jpg");
-    background-attachment: fixed;
+    background-attachment: fixed; 
+background-color: blue;
 }
 
 
