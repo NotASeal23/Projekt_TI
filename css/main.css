@@ -2,6 +2,9 @@
     --BBlue: #2a3152; /*zmienna koloru*/
     --LBlue: #6344a8;
 }
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
 body {
     background-image: url("../img/bg.jpg");
     background-attachment: fixed;
@@ -45,6 +48,7 @@ nav {
     margin: auto;
     top: 0;
     width: 100%;
+    z-index: 2;
 }
 ul.menu {
     padding: 0;
@@ -110,21 +114,14 @@ li.szkola > ul li a{
   width: 160px;
 }
 
-/* --------------- SEKCJA GŁÓWNA - CONTENT --------------*/
 
-main {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  background-color: rgba(0,0,0,0.2);
-  padding-top: 1000px; /* na potrzeby pracy */
-}
 
 /* --------------- STOPKA ------------------------*/
 footer {
     /* margin-top: 1500px; */
     color: white;
     padding: 20px 0;
+    margin: 0;
     background-color: var(--BBlue);
     width: 100%;
     height: 300px;
@@ -207,4 +204,115 @@ footer div:last-child {
     left: 2.5px;
     font-size: 22px;
     rotate: 45deg;
+}
+
+/* --------------- SEKCJA GŁÓWNA - CONTENT --------------*/
+
+main {
+  width: 80%;
+  height: 100%;
+  margin: 0;
+  background-color: rgba(0,0,0,0.5);
+  padding-top: 200px; /* na potrzeby pracy */
+  padding-bottom: 200px;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+/*  USTAWIENIA DLA PODSTRON */
+h1.Kontakt {
+  color: #fff;
+  padding: 120px 0 50px 0;
+  text-align: center;
+  letter-spacing: 3px;
+  background-color: rgba(0,0,0,0.5);
+  margin: 0;
+}
+main.Kontakt {
+  display: flex;
+  padding-top: 0;
+}
+main.Kontakt aside {
+  flex-grow: 1;
+  height: 700px;
+  color: #fff;
+  max-width: 30%;
+}
+main.Kontakt aside img {
+  width: 70%;
+  height: 70%;
+  display: block;
+}
+main.Kontakt section {
+  flex-grow: 5;
+  height: 700px;
+  display: flex;
+}
+
+main.Kontakt section form {
+  max-width: 70%;
+  max-width: 600px; /* Ustaw maksymalną szerokość formularza */
+  margin: 0 auto; /* Wycentruj formularz w sekcji */
+  display: block;
+  flex-direction: column;
+  align-items: center;
+}
+main.Kontakt section form h2 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+main.Kontakt section form label {
+  color: white;
+  margin-bottom: 8px;
+}
+
+main.Kontakt section form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid rgba(255, 255, 255, 0.5); /* Dodaj ramkę z przezroczystością */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.3); /* Dodaj kolor tła z przezroczystością */
+  backdrop-filter: blur(10px); /* Dodaj efekt rozmycia tła */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Dodaj delikatny cień */
+}
+
+main.Kontakt section form label {
+  color: white;
+  margin-bottom: 8px;
+  font-size: 110%;
+}
+/* formularz */
+main.Kontakt section form input,
+main.Kontakt section form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  box-sizing: border-box;
+}
+main.Kontakt section form textarea {
+  resize: none;
+  height: 200px;
+}
+main.Kontakt section form input[type="submit"] {
+  width: 40%;
+  padding: 12px;
+  background-color: #6344a8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+main.Kontakt section form input[type="submit"]:hover {
+  background-color: #4c3280;
 }
