@@ -166,10 +166,11 @@ footer div:last-child {
 footer div:nth-child(2) h3{
   font-size: 20px;
   margin-left: 0;
-  padding-left: 30px;
+  padding-left: 50px;
 }
 footer div:nth-child(2) img {
   margin-top: 20px;
+  margin-left: 10px;
 }
 footer img {
   padding-left: 30px;
@@ -188,7 +189,7 @@ footer img {
     position: fixed;
     top: 75vh;
     left: 90vw;
-    background-color: #333366;
+    background-color: #444488;
     border-radius: 50%;
     cursor: pointer;
 }
