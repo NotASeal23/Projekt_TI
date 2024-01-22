@@ -155,7 +155,7 @@ footer p {
 footer div:last-child img {
   position: relative;
   left: 25px;
-  padding-left: 20px;
+  padding-left: 35px;
 }
 footer div:last-child {
     padding-top: 40px;
@@ -165,20 +165,20 @@ footer div:last-child {
     padding-left: 0px;
 }
 footer div:nth-child(2) h3{
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 0;
-  padding-left: 50px;
+  padding-left: 75px;
 }
 footer div:nth-child(2) img {
   margin-top: 20px;
   margin-left: 10px;
 }
 footer img {
-  padding-left: 30px;
+  padding-left: 45px;
 }
 #ig {
   position: relative;
-  width: 70px;
+  width: 100px;
   top: 5px;
 }
 
