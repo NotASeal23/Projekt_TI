@@ -151,9 +151,12 @@ footer p {
     text-decoration-style: solid;
     padding-left: 33%;
 }
-
+footer div:last-child img {
+  position: relative;
+  left: 40px;
+}
 footer div:last-child {
-    padding-top: 100px;
+    padding-top: 40px;
     text-align: center;
     margin-right: 200px;
     margin-left: 0px;
