@@ -140,6 +140,7 @@ footer div {
 }
 footer div:first-child {
     border-left: 0px;
+    text-align: center;
 }
 footer p {
     font-size: 15px;
