@@ -359,7 +359,7 @@ main.Kontakt section form input[type="submit"]:hover {
   background-color: var(--LBlue);
   height: 300px;
   width: 250px;
- 
+  box-shadow: 1px 1px 5px 1px black;
   border-radius: 10px;
   margin: 50px;
   
@@ -373,4 +373,6 @@ main.Kontakt section form input[type="submit"]:hover {
 }
 .panel div:hover {
   cursor: pointer;
+  box-shadow: 1px 1px 15px 1px black;
 }
+
