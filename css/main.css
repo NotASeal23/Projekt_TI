@@ -173,14 +173,21 @@ footer div:nth-child(2) h3{
 footer div:nth-child(2) img {
   margin-top: 20px;
   margin-left: 10px;
+  padding-left: 10px;
+
 }
 footer img {
   padding-left: 45px;
 }
+footer div:nth-child(2) {
+  flex-wrap: wrap;
+  display: flex;
+}
 #ig {
   position: relative;
-  width: 100px;
-  top: 5px;
+  width: 75px;
+  height: 65px;
+  top: -5px;
 }
 
 /* ------- PRZYCISK POWROT NA GORE STRONY --------------*/
