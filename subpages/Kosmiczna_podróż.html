@@ -8,38 +8,24 @@
     <script src="../js/script.js"></script>
 </head>
 <style>
-    .panel img{
-        width: 250px;
-        height: 150px;
-        border: 0px black solid;
-        margin: 0px;
+    .panel div {
+        width: 700px;
+        height: 300px;
     }
-    h1, p {
+    .panel div {
         color: white;
+        padding: 50px;
+    } 
+    .panel h3{
+        font-size: 30px;
     }
-    h1 {
-        font-size: 50px;
-    }
-    main a{
-        text-decoration: none;
-        color: #9374d8;
-    }
-    main div a{
-        text-decoration: underline;
-        color: #000066;
-        padding: 10px;
-    }
-    h3 {
-        color:white;
+    .panel p {
         font-size: 20px;
-        text-align: center;
-        font-family: sans-serif;
     }
-    main div p {
-        margin: 10px;
-        text-align: center;
+    .panel div:hover {
+        box-shadow: 1px 1px 5px 1px black;
+        cursor:auto;
     }
-    
 </style>
 <body>
 
@@ -71,17 +57,15 @@
         </nav>
 
     <!-- SEKCJA GŁÓWNA -->
-    <main>
-        <h1>Repertuar</h1>
-        <p>Ceny poszczególnych seansów znajdują się w zakładce <a href="../subpages/Cennik.html"> "CENNIK"</a></p>
-        <div class="panel">
-            <div><img src="../img/kosmonauta.jpg" alt="kosmonauta"><h3>Kosmiczna podróż</h3><p>Wciel się w podróżnika współczesnych czasów i poczuj jak to jest...<a href="./Kosmiczna_podróż.html">Zobacz więcej</a></p></div><!--https://edukacjapodyplomowaokulisty.pl/oko-w-kosmosie/-->
-            <div><img src="../img/rakieta.jpeg" alt="rakieta"><h3>Szlakami wielkich ludzi</h3><p>Wciel się w wielkiego człowieka dawnych czasów i poczuj...<a href="#">Zobacz więcej</a></p></div> <!--https://www.poradnikzdrowie.pl/aktualnosci/lot-w-kosmos-kapsule-bedzie-widac-z-polski-aa-mLko-bx23-3Qhv.html -->
-            <div><img src="../img/zacmienie.jpg" alt="zacmienie"><h3>Dotknąć niedotykalnego</h3><p>Wciel się w odkrywcę współczesnych czasów i dotknij to...<a href="#">Zobacz więcej</a></p></div> <!--https://www.urania.edu.pl/wiadomosci/jak-policzyc-polski-kosmos-->
-            <div><img src="../img/zmierzch.png" alt="zacmienie"><h3>To czego nie ma</h3><p>Wciel się w podróżnika współczesnych czasów i poczuj jak to jest...<a href="#">Zobacz więcej</a></p></div><!--https://radioolsztyn.pl/to-co-dzieje-w-kosmosie-ma-ogromny-wplyw-na-pogode-na-ziemi-dzis-obchodzimy-swiatowym-dniu-kosmosu/01336211-->
+  <main>
+    <div class="panel">
+        <div>
+            <h3>Kosmiczna podróż</h3>
+            <p>Wciel się w podróżnika współczesnych czasów i poczuj jak to jest być współczesnym podróżnikiem współczesnych czasów. Podczas seansu dowiesz się wielu interesujących i przydatnych rzeczy oraz poznasz tajniki eksploracji kosmicznej. Po tym szybkim kursie możesz bez problemu wyruszyć w kosmos! </p>
+            <p>Cena: 20zł ulgowy, 24zł normalny.</p>
         </div>
-    </main>
-
+    </div>
+  </main>
     <div id="dogora" onclick="scrollToTop()"><a id="pa">Go up</a><a id="pa2">&#128640;</a></div>
 
 
