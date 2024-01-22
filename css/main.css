@@ -153,7 +153,8 @@ footer p {
 }
 footer div:last-child img {
   position: relative;
-  left: 40px;
+  left: 25px;
+  padding-left: 35px;
 }
 footer div:last-child {
     padding-top: 40px;
@@ -161,6 +162,13 @@ footer div:last-child {
     margin-right: 200px;
     margin-left: 0px;
     padding-left: 0px;
+}
+footer img {
+  padding-left: 70px;
+}
+#ig {
+  position: relative;
+  top: 5px;
 }
 
 /* ------- PRZYCISK POWROT NA GORE STRONY --------------*/
