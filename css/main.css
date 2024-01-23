@@ -319,8 +319,8 @@ main.Kontakt section {
 
 main.Kontakt section form {
   max-width: 70%;
-  max-width: 600px; /* Ustaw maksymalną szerokość formularza */
-  margin: 0 auto; /* Wycentruj formularz w sekcji */
+  max-width: 600px;
+  margin: 0 auto;
   display: block;
   flex-direction: column;
   align-items: center;
@@ -340,12 +340,12 @@ main.Kontakt section form {
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid rgba(255, 255, 255, 0.5); /* Dodaj ramkę z przezroczystością */
+  border: 2px solid rgba(255, 255, 255, 0.5);
   padding: 20px;
   border-radius: 8px;
-  background-color: rgba(0, 0, 0, 0.3); /* Dodaj kolor tła z przezroczystością */
-  backdrop-filter: blur(10px); /* Dodaj efekt rozmycia tła */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Dodaj delikatny cień */
+  background-color: rgba(0, 0, 0, 0.3); 
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 main.Kontakt section form label {
