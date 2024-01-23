@@ -118,7 +118,42 @@ li.szkola > ul li a{
   width: 160px;
 }
 
-
+/*  RESPONSYWNE MENU */
+@media all and (max-width: 800px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  nav li {
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+  }
+  nav a {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .menu .szkola a {
+    width: 100%;
+  }
+  .menu ul li {
+      /* display: flex; */
+  }
+  .menu li.planetarium ul, .menu li.szkola ul {
+      display: none;
+  }
+  li.szkola > ul li a{
+    width: 100%;
+  }
+  li.planetarium > ul li a{
+    width: 100%;
+  }
+}
+/* ----------------------------------- */
 
 /* --------------- STOPKA ------------------------*/
 footer {
@@ -369,11 +404,10 @@ main.Kontakt section form input[type="submit"]:hover {
   box-shadow: 1px 1px 5px 1px black;
   border-radius: 10px;
   margin: 50px;
-  
+
 }
 
 .panel div:hover {
   cursor: pointer;
   box-shadow: 1px 1px 15px 1px black;
 }
-
