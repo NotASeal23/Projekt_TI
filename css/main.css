@@ -172,8 +172,8 @@ footer div:nth-child(2) h3{
 }
 footer div:nth-child(2) img {
   margin-top: 20px;
-  margin-left: 10px;
-  padding-left: 10px;
+  margin-left: 0px;
+  padding-left: 3vw;
 
 }
 footer img {
