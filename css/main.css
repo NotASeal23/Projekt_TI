@@ -1,7 +1,7 @@
 :root {
     --BBlue: #2a3152; /*zmienna koloru*/
     --LBlue: #6344a8;
-    --ButtonBg: #444488;
+    --ButtonBg: #6464a8;
 }
 * {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
