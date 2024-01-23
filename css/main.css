@@ -371,13 +371,7 @@ main.Kontakt section form input[type="submit"]:hover {
   margin: 50px;
   
 }
-.panel div div {
-  background-color: white;
-  height: 200px;
-  width: 200px;
-  position: absolute;
-  z-index: -1;
-}
+
 .panel div:hover {
   cursor: pointer;
   box-shadow: 1px 1px 15px 1px black;
