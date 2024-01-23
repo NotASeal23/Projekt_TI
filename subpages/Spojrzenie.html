@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Planetarium Nova</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link rel="icon" type="image/x-icon" href="../img/logo2.ico">
+    <script src="../js/script.js"></script>
+    
+</head>
+<style>
+    .panel div {
+        width: 700px;
+    }
+    .panel img{
+        width: 250px;
+        height: 150px;
+        border: 0px black solid;
+        margin: 0px;
+    }
+    h1, p {
+        color: white;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    main a{
+        text-decoration: none;
+        color: #9374d8;
+    }
+    main div a{
+        text-decoration: underline;
+        color: #000066;
+        padding: 10px;
+    }
+    h3 {
+        color:white;
+        font-size: 20px;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    main div p {
+        margin: 10px;
+        text-align: center;
+    }
+    span {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0;
+        left: 0;
+        z-index: 1;
+    }
+    .panel p {
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    .panel h1 {
+        padding-left: 20px;
+    }
+</style>
+<body>
+
+        <nav id="navbar">
+          <ul class="menu">
+              <li id="home"><a href="../index.html"><img src="../img/nova.svg" alt="Home"></a></li>
+
+              <li class="planetarium"><a href="Planetarium.html">Planetarium &#128899;</a>
+                  <ul>
+                      <li><a href="Repertuar.html">Repertuar</a></li>
+                      <li><a href="Cennik.html">Cennik</a></li>
+                      <li><a href="O_nas.html">O nas</a></li>
+                  </ul>
+              </li>
+
+              <li class="szkola" id="this"><a href="Dla_szkol.html">Dla szkół &#128899;</a>
+                  <ul>
+                      <li id="this"><a href="Warsztaty.html">Warsztaty</a></li>
+                      <li><a href="Mobilne_planetarium.html">Mobilne planetarium</a></li>
+                      <li><a href="Konkurs.html">Konkurs</a></li>
+                  </ul>
+              </li>
+
+              <li><a href="Strefa_wiedzy.html">Strefa wiedzy</a>
+              <li><a href="Kontakt.html">Kontakt</a></li>
+
+          </ul>
+        </nav>
+
+    <!-- SEKCJA GŁÓWNA -->
+    <main>
+        
+        <div class="panel">
+            <div>
+                <h1>Spojrzenie w przyszłość</h1>
+                <p>Warsztaty obejmują wycieczkę terenową, a także pracę przy mikroskopie, zdjęciach satelitarnych, krótki wykład i opiekę opiekuna. Uczestnicy mają niepowtarzalną okazję poznać historię ziemi oraz zobaczyć co się stanie w przyszłości.</p>
+            </div>
+        </div>
+    </main>
+
+
+    <div id="dogora" onclick="scrollToTop()"><a id="pa">Go up</a><a id="pa2">&#128640;</a></div>
+
+
+    <footer>
+        <div>
+        <h3>CONTACT</h3>
+        <p>tel. 226 864 935</p>
+        <p>ul. Przemysłowa 43/7</p>
+        </div>
+
+        <div>
+                <h3>Dołącz do nas już dziś!  </h3>
+                <img  width="55px" height="55px" src="../img/fbicon.png" alt="facebook"><img id="ig" src="../img/igicon.png" alt="instagram">
+                <!--loga fb twitter itakie tam-->
+        </div>
+
+        <div>
+                <!--logo-->
+                <img width="100px" src="../img/planetarium.png" alt="logo">
+                <p>Nova the planetarium</p>
+                <p> 2023 All rights reserved</p>
+        </div>
+
+    </footer>
+</body>
+</html>
